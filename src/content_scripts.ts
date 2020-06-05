@@ -20,8 +20,11 @@ document.addEventListener('focusin', (evt) => {
     if (evt.target instanceof HTMLElement) {
         const elem :HTMLElement = <HTMLElement>evt.target;
         if (elem.tagName === 'TEXTAREA') {
+            if (elem.getAttribute('data-tribute')) {
+                return;
+            }
             evt.preventDefault();
             tribute.attach(elem);
         }
     }
-})
+});
