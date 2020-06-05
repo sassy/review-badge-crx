@@ -1,12 +1,13 @@
 {
-  "name": "Hello Extensions",
-  "description" : "Base Level Extension",
+  "name": "Review Badge",
+  "description" : "insert review badge for textarea",
   "version": "1.0",
   "manifest_version": 2,
   "content_scripts": [
     {
-        "matches": [ "http://*/*", "https://*/*" ],
-        "js": [ "content_scripts.js" ]
+        "matches": [ "http://github.com/*", "https://github.com/*" ],
+        "js": [ "content_scripts.js" ],
+        "css": [ "style.css"]
     }
   ]
 }
