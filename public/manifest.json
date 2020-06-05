@@ -1,0 +1,12 @@
+{
+  "name": "Hello Extensions",
+  "description" : "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+        "matches": [ "http://*/*", "https://*/*" ],
+        "js": [ "content_scripts.js" ]
+    }
+  ]
+}
