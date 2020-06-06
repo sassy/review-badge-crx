@@ -27,6 +27,7 @@ const config: ConfigurationFactory = () => {
     plugins: [
       new CopyPlugin({
         patterns:[
+            { from: 'node_modules/tributejs/dist/tribute.css', to: '.' },
             { from: 'public', to: '.' }
         ]})
     ]

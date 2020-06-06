@@ -12,7 +12,7 @@
     {
         "matches": [ "http://github.com/*", "https://github.com/*" ],
         "js": [ "content_scripts.js" ],
-        "css": [ "style.css"]
+        "css": [ "tribute.css"]
     }
   ]
 }
