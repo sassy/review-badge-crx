@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Satoshi Watanabe",
   "license": "MIT",
+  "scripts" : {
+    "archive": "zip -r dist.zip dist/"
+  },
   "devDependencies": {
     "@types/copy-webpack-plugin": "^6.0.0",
     "@types/webpack": "^4.41.17",
