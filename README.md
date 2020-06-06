@@ -2,12 +2,20 @@
 
 insert review badge for textarea
 Add a badge to your review comments.
+
 Please input "!r" in textarea for github site.
 
 
 ## usage
 
 type `!r` in textarea and select popup list.
+
+
+![screenshot1](https://github.com/sassy/review-badge-crx/blob/master/screenshot/screenshot1.png)
+
+
+![screenshot2](https://github.com/sassy/review-badge-crx/blob/master/screenshot/screenshot2.png)
+
 
 
 ## badge
