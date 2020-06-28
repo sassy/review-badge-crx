@@ -8,14 +8,14 @@
     "archive": "zip -r dist.zip dist/"
   },
   "devDependencies": {
-    "@types/copy-webpack-plugin": "^6.0.0",
-    "@types/webpack": "^4.41.18",
-    "copy-webpack-plugin": "^6.0.2",
-    "ts-loader": "^7.0.5",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.5",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "@types/copy-webpack-plugin": "6.0.0",
+    "@types/webpack": "4.41.18",
+    "copy-webpack-plugin": "6.0.2",
+    "ts-loader": "7.0.5",
+    "ts-node": "8.10.2",
+    "typescript": "3.9.5",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
   },
   "dependencies": {
     "tributejs": "^5.1.3"
