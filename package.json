@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@types/copy-webpack-plugin": "6.0.0",
-    "@types/webpack": "4.41.19",
+    "@types/webpack": "4.41.21",
     "copy-webpack-plugin": "6.0.3",
     "ts-loader": "7.0.5",
     "ts-node": "8.10.2",
