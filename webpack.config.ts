@@ -1,8 +1,7 @@
-import { ConfigurationFactory } from 'webpack'
 import path from 'path'
 import CopyPlugin from 'copy-webpack-plugin'
 
-const config: ConfigurationFactory = () => {
+const config = () => {
   return {
     entry: {
       content_scripts: path.join(__dirname, 'src', 'content_scripts.ts')
