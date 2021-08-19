@@ -1,5 +1,7 @@
 # review-badge-crx
 
+https://chrome.google.com/webstore/detail/review-badge/kiepclhakcefkflamflnjbfogmfamoal
+
 insert review badge for textarea
 Add a badge to your review comments.
 
