@@ -1,5 +1,7 @@
 # review-badge-crx
 
+![パッケージ画像](./rbicon.png)
+
 https://chrome.google.com/webstore/detail/review-badge/kiepclhakcefkflamflnjbfogmfamoal
 
 insert review badge for textarea
