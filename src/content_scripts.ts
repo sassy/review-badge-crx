@@ -4,6 +4,7 @@ const tribute = new Tribute({
     trigger: "!r",
     values: [
         { key: "must", value: "![badge](https://img.shields.io/badge/review-must-red.svg)" },
+        { key: "should", value: "![badge](https://img.shields.io/badge/review-should-blue.svg)" },
         { key: "imo", value: "![badge](https://img.shields.io/badge/review-imo-orange.svg)" },
         { key: "nits", value: "![badge](https://img.shields.io/badge/review-nits-green.svg)" },
         { key: "suggest", value: "![badge](https://img.shields.io/badge/review-suggestion-blue.svg)"},

@@ -26,6 +26,7 @@ type `!r` in textarea and select popup list.
 |label |badge |
 |-------|-------|
 |must |![badge](https://img.shields.io/badge/review-must-red.svg) |
+|should |![badge](https://img.shields.io/badge/review-should-blue.svg)|
 |imo |![badge](https://img.shields.io/badge/review-imo-orange.svg) |
 |nits |![badge](https://img.shields.io/badge/review-nits-green.svg) |
 |suggest |![badge](https://img.shields.io/badge/review-suggestion-blue.svg) |
