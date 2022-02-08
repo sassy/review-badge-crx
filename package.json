@@ -8,7 +8,7 @@
     "archive": "zip -r dist.zip dist/"
   },
   "devDependencies": {
-    "@types/copy-webpack-plugin": "8.0.1",
+    "@types/copy-webpack-plugin": "10.1.0",
     "@types/webpack": "5.28.0",
     "copy-webpack-plugin": "10.2.4",
     "ts-loader": "9.2.6",
