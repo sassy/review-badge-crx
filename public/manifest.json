@@ -2,7 +2,7 @@
   "name": "Review Badge",
   "description" : "insert review badge for textarea",
   "version": "1.2",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons": {
     "16": "image/icon16.png",
     "48": "image/icon48.png",
