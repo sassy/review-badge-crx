@@ -1,0 +1,38 @@
+name: Deploy to Chrome web store
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build
+        run: |
+          yarn install
+          yarn webpack
+
+      - name: Zip dist
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r release.zip dist/
+
+      - name: Upload to Chrome Web Store
+        uses: mobilefirstllc/cws-publish@latest
+        with:
+          action: 'upload'  # one of: upload, publish, testers
+          client_id: ${{ secrets.CLIENT_ID }}
+          client_secret: ${{ secrets.CLIENT_SECRET }}
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
+          extension_id: ${{ secrets.EXTENSION_ID }} 
+          zip_file: 'release.zip'
